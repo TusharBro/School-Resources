@@ -4,6 +4,12 @@ body{
   box-sizing: border-box;
   font-family: 'Luxurious Roman', cursive;
 }
+#books{
+  margin-top: 150px;
+}
+.container-fluid{
+  padding: 0px 50px;
+}
 header{
   background: #F0FFF0;
 }
@@ -82,9 +88,6 @@ ul li a{
   border-radius: 25px;
   padding: 15px;
 }
-/* .tab{
-  border-radius: 50px;
-} */
 i{
   margin-right: 8px;
   padding-top: 3px;
@@ -98,19 +101,18 @@ i{
 .man{
   width: 120px;
 }
-.foot p,.nav-link,h5{
+.foot p,
+.foot h5{
   color: #fff;
 }
-.foot .nav-link{
+.foot a{
   padding-left: 0px;
   line-height: 10px;
+  color: #fff;
+}
+.foot a:hover{
+  color: gray;
 }
 .copyright{
   color: gray;
-}
-.fota{
-  display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
-  justify-content: center;
 }
