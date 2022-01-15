@@ -7,9 +7,6 @@ body{
 #books{
   margin-top: 150px;
 }
-.container-fluid{
-  padding: 0px 50px;
-}
 header{
   background: #F0FFF0;
 }
@@ -115,4 +112,9 @@ i{
 }
 .copyright{
   color: gray;
+}
+@media screen and(max-width: 576px) {
+  /* .container-fluid{
+    padding: 0px 0px;
+  } */
 }
